@@ -1,6 +1,16 @@
-# NoteTaker
+# Note Taker
 
-Blurb.
+An Express.js application that allows the user to write and save notes to keep track of action items and tasks.
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Visuals](#visuals)
+- [Tests](#tests)
+- [Contact Me](#contact-me)
 
 ## Description
 
@@ -8,24 +18,24 @@ Blurb.
 
 ## Usage
 
-## License
-
 ## Contributing
 
 ## Visuals
 
-  ![screenshot]()
+![screenshot]()
 
-  ![screenshot]()
+![screenshot]()
 
-  [DeployedApp] (<>)
+[DeployedApp] (<>)
 
-  ### Questions?
+## Tests
 
-  Please feel free to contact me with any questions
+## Questions?
 
-  - Github: NAHco-code
-  - LinkedIn: www.linkedin.com/in/kwilkinsonxx
-  - Email: kathrynxwilk@gmail.com
-  
-  (c) 2021 Kathryn Wilkinson
+Please feel free to contact me with any questions
+
+- Github: github.com/NAHco-code
+- LinkedIn: www.linkedin.com/in/kwilkinsonxx
+- Email: kathrynxwilk@gmail.com
+
+© 2021 k.wilkinson
