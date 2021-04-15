@@ -1,0 +1,29 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "An Express.js application that allows the user to save notes and tasks",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAHco-code/Note-Taker.git"
+  },
+  "keywords": [
+    "express",
+    "note",
+    "taker",
+    "wilkinson"
+  ],
+  "author": "Kathryn Wilkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NAHco-code/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/NAHco-code/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -35,7 +35,7 @@ An Express.js application that allows the user to write and save notes to keep t
 Please feel free to contact me with any questions
 
 - Github: github.com/NAHco-code
-- LinkedIn: www.linkedin.com/in/kwilkinsonxx
+- LinkedIn: www.linkedin.com/in/kwilkinsonxx/
 - Email: kathrynxwilk@gmail.com
 
 © 2021 k.wilkinson
