@@ -29,6 +29,10 @@ app.get('/api/notes', (req, res) => {
     });
 });
 
+//*sends you to index if another route entered isn't recognized
+//*must be below all other 'get' methods
+app.get('*', (req, res) => res.redirect('/'));
+
 // Post api/notes
 app.post('/api/notes', (req, res) => {
 
