@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "An Express.js application that allows the user to save notes and tasks",
+  "description": "An Express.js application that allows the user to write and save notes to keep track of action items and tasks.",
   "main": "server.js",
   "scripts": {
     "test": "npm test",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/NAHco-code/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uniqid": "^5.3.0"
   }
 }
