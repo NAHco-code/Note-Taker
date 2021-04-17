@@ -6,7 +6,7 @@ An Express.js application that allows the user to write and save notes to keep t
 
 ## Table of Contents
 
-- [Description](#description)
+- [Description](#note-taker)
 - [Visuals](#visuals)
 - [Contribute](#contribute)
 - [Contact Me](#questions)
