@@ -2,6 +2,7 @@
 const fs = require('fs'); //* allows you to access the filesystem
 const path = require('path'); //* allows you to access info about the path where process run *create paths *interact with the paths
 const express = require('express');
+const uniqid = require('uniqid'); //*node module that creates a unique id method
 
 const datapath = './db/db.json';
 
@@ -25,6 +26,27 @@ app.get('/api/notes', (req, res) => {
     fs.readFile(datapath, 'utf8', (err, data) => {
         if (err) throw err;
         res.json(JSON.parse(data))
+    });
+});
+
+// Post api/notes
+app.post('/api/notes', (req, res) => {
+
+    let newnote = req.body
+    // console.log(newnote);
+    newnote.id = uniqid('note-');
+    // console.log(newnote);
+    // define readfile funtion
+    fs.readFile(datapath, 'utf8', (err, data) => {
+        if (err) throw err;
+
+        let dataset = JSON.parse(data);
+        dataset.push(newnote);
+
+        fs.writeFile(datapath, JSON.stringify(dataset), (err) => {
+            if (err) throw err;
+            res.json(newnote)//*due to how the index.js is written - it doesn't matter whats in the response as long as it's truthy and returns a 200 status code
+        });
     });
 });
 
